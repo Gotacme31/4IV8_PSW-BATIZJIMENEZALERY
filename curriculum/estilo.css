@@ -1,0 +1,114 @@
+@keyframes animacion_test{
+    from{
+        background-color: #9b1262;
+    }
+    to{
+        background-color:rgb(146, 96, 96);
+        }
+    }
+ 
+*{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.animada{
+    width: 360px;
+    background-color: rgb(143, 169, 226); 
+    height: 37.6px;
+    display: flexbox;
+    animation: animacion_test 2s alternate infinite;
+    float: left;
+}
+.contenedor{
+    width: 360px;
+    height: 900px;
+    background-color:rgb(247, 238, 238);
+    float: left;
+}
+.imagen{
+    background-color: #33ff00;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 78px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.conten2{
+    width: 300px;
+    height: 210px;
+    background-color:rgb(108, 118, 248);
+    float: left;
+    margin-left:30px ;
+}
+.conten3{
+    width: 300px;
+    height: 200px;
+    background-color:rgb(122, 17, 48);
+    float: right;
+    margin-left:30px ;
+
+}
+
+html,body{
+    background-image: url(Foto/emo.jpg);
+    background-size: cover;
+}
+.main{
+    background-color:#b0c927;
+    width: 800px;
+    height: 900px;
+    margin: auto;
+    border: 2px solid rgb(12, 148, 141);
+}
+.conten6{
+    width: 400px;
+    height: 250px;
+    background-color:#ced8e0;
+    float: left;
+    margin-left: 30px;
+}
+.conten7{ 
+    width: 400px;
+    height: 250px;
+    background-color:#e0d7ce;
+    float: left;
+    margin-left: 30px;
+
+}
+.contenfinish{
+    width: 400px;
+    height: 250px;
+    background-color:#e0d7ce;
+    float: left;
+    margin-left: 30px;
+
+}
+.pie{
+    width: 400px;   
+    height: 150px;
+    background-color:#f5f1ec;
+    float: left;
+    margin-left: 30px;
+    
+}
+hr{
+ height: 1.5px;
+ background-color: rgb(252, 246, 246);
+}
+article{
+    float: left;
+    background-color: aqua;
+    border-radius: 3px;
+}
+
+aside{
+    float: right;
+    background-color: #33ff00;
+    border-radius: 3px;
+}
+
