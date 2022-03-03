@@ -1,5 +1,4 @@
-from figuras.cuadrilateros import Cuadrado
-
+from figuras.cuadrilateros import Circulo
 
 # def ask_for_side():
 #     bool1 = True
