@@ -73,12 +73,11 @@ function validar(formulario){
     Es necesario que buscen como crear expresiones regulares
     para poder hacer el uso de una expresion regurlar
     */
-
     var txt=formulario.email.value;
 
     //crear expresion
 
     var b=/^[@s]+^+(.)+/;
-    alert("Email " + (b.test(txt)?" ";"no")+"valido");
+    alert("Email " + (b.test(txt)+" "+"no")+"valido");
     return b.test;
 }
