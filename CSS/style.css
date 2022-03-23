@@ -4,5 +4,13 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
+    text-align:center;
+}
+.principal{
+    background-color: rgba(16, 117, 117, 0.74);
+    border: solid 4px;
+    border-radius: 5px;
+    margin-top: auto;
+    display:inline-block;
+    text-align:center;
 }
