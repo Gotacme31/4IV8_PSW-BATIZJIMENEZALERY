@@ -26,7 +26,7 @@ function seleccionarElemento(evt){
     currentY= evt.clientY;
     currentPosX= parsefloat(elementSelect.getAttribute("x"));
     currentPosY= parsefloat(elementSelect.getAttribute("y"));
-    elementSelect.setAttribute("onmovemouse","moverElemento");
+    elementSelect.setAttribute("onmousemove","moverElemento");
 }
 
 function moverElemento(evt){
