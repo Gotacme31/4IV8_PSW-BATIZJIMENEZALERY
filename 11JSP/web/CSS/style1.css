@@ -1,0 +1,20 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/04/2022, 11:25:39 PM
+    Author     : aly
+*/
+.uno{
+    background-color: rgb(166, 234, 255, 0.74);
+    border: 2px solid #ffffff;
+    box-shadow: 5px 7px 13px #83eaf8;
+    border-radius: 9px;
+    width: 600px;
+    margin-top: 200px;
+    text-align: center;
+    margin-left: 450px;
+
+}

@@ -1,0 +1,38 @@
+@keyframes animacion_test{
+    from{
+        background-color:rgb(192, 125, 0);
+    }
+    to{
+        background-color:#0A1172;
+        }
+    }
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+   
+}
+html,body{
+    background-image: url(../);
+    background-size: cover;
+}
+.contenedor{
+    width: 401px;
+    height: 50;
+    background-color: rgba(128, 128, 128, 0.705)  ; 
+    display: flex;
+    animation: animacion_test 2s alternate infinite;
+    margin: auto;
+    border: solid black;
+}
+.contenedor1{
+    width: 400px;
+    height: 800px;
+    background-color:rgba(128, 128, 128, 0.548);
+    margin: 15px;
+    padding: 25px;
+    margin: auto;
+    border: solid black;
+    
+
+}
